@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <div class="menu">
+    <img draggable="false" class="logo" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/pinterest-512.png">
+    <h1 class="mh">Pinterest</h1>
+    <a href="/feed" class="home" >Today</a>
+    <a href="/feed" class="home" >Watch </a>    
+    <a href="/feed" class="home" >Explore</a>
+    <!-- <input id="one" type="text" class="search-bar" placeholder="Search"> -->
+    <button id="two" class="search-bar"></button>
+    <div class="icon-container">
+      
+      <a href="/feed" class="home" >About</a>
+      <a href="/login" class="home" >Business </a>    
+      <a href="/login" class="home" >Blog</a>
+      <!-- <a   href="/login" class="ihome" >login</a> -->
+      <a href="/" class="ohome" >Signup</a>
+      <!----FOCUS----->
+      <div tabindex="1" class="focus-bar bell-bar">nothing</div>
+      <!-------------------->
+      <div tabindex="1" class="focus-bar message-bar">you are alone</div>
+      <!-------------------->
+      <div tabindex="1" class="focus-bar pp-bar"><img src="https://i.pinimg.com/564x/bd/94/ce/bd94ce28cf8aefb521bac31d547f6409.jpg"><a href="https://github.com/devrimos" target="_blank">devrimos</a></div>
+      <!-------------------->
+      <div tabindex="1" class="focus-bar btn-bar">¯\_( ͡° ͜ʖ ͡°)_/¯</div>
+      
+    </div>
+  </div>
+  <div id="mainimg">
+    <div class="leftu">
+      <h1><span>Already </span>  have an <span>Account</span></h1>
+    </div>
+  <div class="container">
+    <div class="content">
+      <!--pinterest logo-->
+      <img src="https://i.pinimg.com/originals/d3/d1/75/d3d175e560ae133f1ed5cd4ec173751a.png" alt="pin logo" class="img1" />
+      <p class="header">Welcome to Pinterest</p>
+      <% if (error.length > 0 ){
+        %>
+        <p class="error">
+
+<%= error %>
+        </p><%
+      } %>
+<form action="/login" method="post">
+
+      <input type="text" name="username" placeholder="username" class="detail" />
+
+      
+      
+      <input type="password" name="password" placeholder="Password" class="detail" />
+
+
+      
+      <input  type="submit" class="btn int" value="login account">
+    </form>
+      <a href="">Forgot your password?</a>
+
+      <footer>
+        <p>
+          By continuing, you agree to Pinterest's
+          <b>Terms of Service, Privacy policy.</b>
+        </p>
+        <hr />
+        <a href="/">Not on Pinterest yet? Sign up</a>
+      </footer>
+    </div>
+  </div>
+  </div>
+  
+  <div class="ffcontainer">
+  <div class="window">
+    <img class="foto" src="https://i.pinimg.com/564x/3b/ca/27/3bca27bb7f825bd75005094c5f1b33a8.jpg">
+      <p class="fcontent">Like my pen</p>
+    <img class="user" src="https://i.pinimg.com/236x/95/9c/d3/959cd32eba7a0b6cecacfe086a6c1a47.jpg">
+    <a class="username">devrimos</a>
+    
+    <div class="hover-zone">
+      <div class="top-bar">
+        <p>Profile ⌵</p>
+        <a>Save</a>
+      </div>
+      <!-------------------->
+      <div class="bottom-bar">
+        <a>↗ website.com</a>
+        <div class="radius-ico">
+          <img draggable="false" src="">
+          <img draggable="false" src="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="window">
+    <img class="foto" src="https://i.pinimg.com/564x/49/41/0d/49410d744171f596b481c153afcf66fb.jpg">
+      <p class="fcontent">Like my pen</p>
+    <img class="user" src="https://i.pinimg.com/236x/95/9c/d3/959cd32eba7a0b6cecacfe086a6c1a47.jpg">
+    <a class="username">devrimos</a>
+    
+    <div class="hover-zone">
+      <div class="top-bar">
+        <p>Profile ⌵</p>
+        <a>Save</a>
+      </div>
+      <!-------------------->
+      <div class="bottom-bar">
+        <a>↗ website.com</a>
+        <div class="radius-ico">
+          <img draggable="false" src="">
+          <img draggable="false" src="">
+        </div>
+      </div>
+    </div>
+  </div> <div class="window">
+    <img class="foto" src="https://i.pinimg.com/564x/3b/ca/27/3bca27bb7f825bd75005094c5f1b33a8.jpg">
+      <p class="fcontent">Like my pen</p>
+    <img class="user" src="https://i.pinimg.com/236x/95/9c/d3/959cd32eba7a0b6cecacfe086a6c1a47.jpg">
+    <a class="username">devrimos</a>
+    
+    <div class="hover-zone">
+      <div class="top-bar">
+        <p>Profile ⌵</p>
+        <a>Save</a>
+      </div>
+      <!-------------------->
+      <div class="bottom-bar">
+        <a>↗ website.com</a>
+        <div class="radius-ico">
+          <img draggable="false" src="">
+          <img draggable="false" src="">
+        </div>
+      </div>
+    </div>
+  </div> <div class="window">
+    <img class="foto" src="https://i.pinimg.com/564x/c1/b1/51/c1b151515aaf5e3aca9ec459102e92d2.jpg">
+      <p class="fcontent">Like my pen</p>
+    <img class="user" src="https://i.pinimg.com/236x/95/9c/d3/959cd32eba7a0b6cecacfe086a6c1a47.jpg">
+    <a class="username">devrimos</a>
+    
+    <div class="hover-zone">
+      <div class="top-bar">
+        <p>Profile ⌵</p>
+        <a>Save</a>
+      </div>
+      <!-------------------->
+      <div class="bottom-bar">
+        <a>↗ website.com</a>
+        <div class="radius-ico">
+          <img draggable="false" src="">
+          <img draggable="false" src="">
+        </div>
+      </div>
+    </div>
+  </div><div class="window">
+    <img class="foto" src="https://i.pinimg.com/564x/c1/b1/51/c1b151515aaf5e3aca9ec459102e92d2.jpg">
+      <p class="fcontent">Like my pen</p>
+    <img class="user" src="https://i.pinimg.com/236x/95/9c/d3/959cd32eba7a0b6cecacfe086a6c1a47.jpg">
+    <a class="username">devrimos</a>
+    
+    <div class="hover-zone">
+      <div class="top-bar">
+        <p>Profile ⌵</p>
+        <a>Save</a>
+      </div>
+      <!-------------------->
+      <div class="bottom-bar">
+        <a>↗ website.com</a>
+        <div class="radius-ico">
+          <img draggable="false" src="">
+          <img draggable="false" src="">
+        </div>
+      </div>
+    </div>
+  </div><div class="window">
+    <img class="foto" src="https://i.pinimg.com/736x/34/6b/e9/346be90a2692f460caae84edffabb972.jpg">
+      <p class="fcontent">Like my pen</p>
+    <img class="user" src="https://i.pinimg.com/236x/95/9c/d3/959cd32eba7a0b6cecacfe086a6c1a47.jpg">
+    <a class="username">devrimos</a>
+    
+    <div class="hover-zone">
+      <div class="top-bar">
+        <p>Profile ⌵</p>
+        <a>Save</a>
+      </div>
+      <!-------------------->
+      <div class="bottom-bar">
+        <a>↗ website.com</a>
+        <div class="radius-ico">
+          <img draggable="false" src="">
+          <img draggable="false" src="">
+        </div>
+      </div>
+    </div>
+  </div><div class="window">
+    <img class="foto" src="https://i.pinimg.com/564x/8b/5e/3d/8b5e3d816edad6ea83c1cd579003f95a.jpg">
+      <p class="fcontent">Like my pen</p>
+    <img class="user" src="https://i.pinimg.com/236x/95/9c/d3/959cd32eba7a0b6cecacfe086a6c1a47.jpg">
+    <a class="username">devrimos</a>
+    
+    <div class="hover-zone">
+      <div class="top-bar">
+        <p>Profile ⌵</p>
+        <a>Save</a>
+      </div>
+      <!-------------------->
+      <div class="bottom-bar">
+        <a>↗ website.com</a>
+        <div class="radius-ico">
+          <img draggable="false" src="">
+          <img draggable="false" src="">
+        </div>
+      </div>
+    </div>
+  </div><div class="window">
+    <img class="foto" src="https://i.pinimg.com/564x/c1/b1/51/c1b151515aaf5e3aca9ec459102e92d2.jpg">
+      <p class="fcontent">Like my pen</p>
+    <img class="user" src="https://i.pinimg.com/236x/95/9c/d3/959cd32eba7a0b6cecacfe086a6c1a47.jpg">
+    <a class="username">devrimos</a>
+    
+    <div class="hover-zone">
+      <div class="top-bar">
+        <p>Profile ⌵</p>
+        <a>Save</a>
+      </div>
+      <!-------------------->
+      <div class="bottom-bar">
+        <a>↗ website.com</a>
+        <div class="radius-ico">
+          <img draggable="false" src="">
+          <img draggable="false" src="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="fff">
+  <h1>&#169; Term of Service Privicy Help Iphone App Android User Collection  Shopping Todea  Explore Watch Shop</h1>
+</footer>
+  <!-- <a href="" class="upbtn">Sign up</a> -->
+
+</body>
+</html>
