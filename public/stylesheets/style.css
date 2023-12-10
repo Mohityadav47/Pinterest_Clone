@@ -768,13 +768,16 @@ gap:17px;
   }
   .fff{
     position: absolute;
-    top: 1270%;
+    top: 1070%;
     width: 100%;
     background-color: #dadada;
     text-align: center;
-    height: 50px;
+    height: 90px;
     font-size: 12px;
   }
+.leftu h1{
+display:none;
+}
 }
 /* footer{
 text-align: center;
@@ -797,10 +800,5 @@ margin: 700px;
   height: 50px;
   font-size: 12px;
 }
-@media screen and (max-width:550px){
 
-
-
-  
-}
   
