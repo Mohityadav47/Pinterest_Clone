@@ -358,7 +358,7 @@ img{
   font-weight:bold;
 }
 .menu .logo{
-  width:65px;
+  width:95px;
   padding:10px;
   cursor:pointer;
   border-radius:50%;
@@ -378,7 +378,7 @@ img{
 }
 .ihome{
   color:#fff;
-  background: rgb(210, 4, 4);
+  background: rgb(9, 124, 5);
   text-decoration: none;
   padding:12px 25px;
   cursor:pointer;
@@ -435,7 +435,7 @@ margin-left: 610px;
 gap:17px;
 }
 .mh{
-  color: rgb(213, 24, 24);
+  color: rgb(9, 124, 5);
 }
 .icon-container .icon{
   width:25px;
